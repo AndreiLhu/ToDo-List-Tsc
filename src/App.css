@@ -1,0 +1,70 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  padding-top: 100px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.inputfield {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.buttonfield {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+td:nth-child(2) {
+  max-width: 150px;
+  overflow-wrap: break-word;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td:nth-child(3),
+td:nth-child(4) {
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.remove {
+  color: red;
+}
